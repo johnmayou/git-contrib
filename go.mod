@@ -1,4 +1,4 @@
-module github.com/johnmayou/git-contributions-cli
+module github.com/johnmayou/git-contrib
 
 go 1.25.0
 

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/johnmayou/git-contributions-cli/internal/scan"
+	"github.com/johnmayou/git-contrib/internal/scan"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

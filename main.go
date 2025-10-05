@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/johnmayou/git-contributions-cli/cmd"
+	"github.com/johnmayou/git-contrib/cmd"
 )
 
 func main() {
