@@ -5,9 +5,6 @@ all: build
 build:
 	@go build -o app.exe .
 
-run:
-	@./app.exe
-
 test:
 	@go test ./... -v -count=1
 
