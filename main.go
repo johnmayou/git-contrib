@@ -1,11 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"os"
+	"github.com/johnmayou/git-contributions-cli/cmd"
 )
 
 func main() {
-	fmt.Print("Hello World\n")
-	os.Exit(0)
+	cmd.Execute()
 }
