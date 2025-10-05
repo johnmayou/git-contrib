@@ -4,17 +4,19 @@ CLI tool to visualize your local commit contributions with a GitHub-style heatma
 
 ## Usage
 
-Scan for repos:
+### 1. Scan for Repos
 
 ```bash
 git-contrib scan run ~/Projects
 ```
 
-See found repos:
+### 2. See Found Repos
 
 ```bash
 git-contrib scan show
 ```
+
+Example output:
 
 ```plaintext
 ~/Projects/vault
@@ -23,11 +25,13 @@ git-contrib scan show
 ~/Projects/terraform
 ```
 
-Generate heatmap:
+### 3. Generate Heatmap
 
 ```bash
 git-contrib stats --email me@email.com
 ```
+
+Example output:
 
 ![heatmap](heatmap.png)
 
