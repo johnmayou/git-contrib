@@ -1,6 +1,6 @@
 # git-contrib
 
-CLI tool to visualize your local commit contributions with a GitHub-style heatmap.
+CLI tool to visualize local commit contributions with a GitHub-style heatmap.
 
 ## Usage
 
