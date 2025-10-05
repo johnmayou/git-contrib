@@ -1,37 +1,36 @@
 # git-contrib
 
-CLI tool that scans for local git repositories and prints a GitHub-style
-contribution heatmap based on daily commit volume.
+CLI tool to visualize your local commit contributions with a GitHub-style heatmap.
 
 ## Usage
 
-### Scan for git repositories
+Scan for repos:
 
 ```bash
 git-contrib scan run ~/Projects
 ```
 
-### See found git repositories
+See found repos:
 
 ```bash
 git-contrib scan show
 ```
 
-Example output:
-
-```text
+```plaintext
 ~/Projects/vault
 ~/Projects/consul
 ~/Projects/vagrant
 ~/Projects/terraform
 ```
 
-### Generate Heatmap
+Generate heatmap:
 
 ```bash
 git-contrib stats --email me@email.com
 ```
 
-Example output:
-
 ![heatmap](heatmap.png)
+
+## License
+
+[MIT](./LICENSE)
