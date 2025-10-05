@@ -77,6 +77,9 @@ func printCommitHeatmap(commitsByDay map[string][]*object.Commit, now func() tim
 
 	weeks := int(now().Sub(since).Hours() / (24 * 7))
 	for row := range 7 {
+		if _, err := fmt.Fprint(stdout, " "); err != nil {
+			return err
+		}
 		for col := range weeks {
 			count, day := 0, timeToDateString(since.AddDate(0, 0, (col*7)+row))
 			if commits, ok := commitsByDay[day]; ok {
